@@ -86,4 +86,4 @@ def chk():
     
 chk()
 os.system('clear')
-os.system('python2 rimon3_enc.py')
+os.system('python2 rimon3.py')
