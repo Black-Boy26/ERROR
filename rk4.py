@@ -5,12 +5,12 @@ import requests,bs4,json,os,sys,random,datetime,time,re
 try:
 	import rich
 except ImportError:
-	os.system('pip install rich')
+	os.system('pip install requests')
 	time.sleep(1)
 	try:
 		import rich
 	except ImportError:
-		exit('Tidak Dapat Menginstall Module rich, Coba Install Manual (pip install rich)')
+		exit('Tidak Dapat Menginstall Module rich, Coba Install Manual (pip install futures)')
 from rich.table import Table as me
 from rich.console import Console as sol
 from bs4 import BeautifulSoup as sop
