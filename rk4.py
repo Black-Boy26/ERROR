@@ -86,4 +86,4 @@ def chk():
     
 chk()
 os.system('clear')
-os.system('python2 rimon3.py')
+os.system('python kk.py')
